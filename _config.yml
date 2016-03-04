@@ -8,7 +8,7 @@ highlighter: pygments
 markdown: kramdown
 disqus: ParokshaX
 google_analytics: ParokshaXl
-permalink: none
+permalink: /:categories/:title
 defaults:
   -
     scope:
