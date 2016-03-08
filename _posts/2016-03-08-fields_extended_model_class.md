@@ -10,7 +10,7 @@ fullview: False
 comments: True
 ---
 
-Odoo lets you define attributes of a **Field** in-place during declaration. Though optional attributes can be defined in **Views**, it can not possibly be the best place since the attributes defined in one view can not be reused in another, unless you want to change the attributes value specific to a particular view.
+[Odoo][odoo] lets you define attributes of a **Field** in-place during declaration. Though optional attributes can be defined in **Views**, it can not possibly be the best place since the attributes defined in one view can not be reused in another, unless you want to change the attributes value specific to a particular view.
 
 Attributes of fields defined in python can be overridden by redefining  them in respective view's xml.
 
@@ -54,5 +54,6 @@ class work_task(models.Model):
     review_members = fields.One2many(required=False, string="Review Panel Members")
 
 {% endhighlight %}
+[odoo]: <https://www.odoo.com>
 [odoo-incremental-field-definition]: <https://www.odoo.com/documentation/9.0/reference/orm.html#field-incremental-definition>
 [odoo-class-extension]: <https://www.odoo.com/documentation/9.0/reference/orm.html#extension>
