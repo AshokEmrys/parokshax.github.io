@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attributes of fields in a Extended Model Class
+title: Attributes of fields in an Extended Model Class
 categories: [Odoo]
 tags: [Odoo, inheritance]
 date: 2016-03-08 09:41:00 +5:45
